@@ -1,0 +1,117 @@
+/* Navigation bar height */
+.navbar {
+    height: 50px;
+}
+
+/* Navigation bar branding */
+.navbar-brand {
+    color: white !important;
+    font-size: 15px;
+}
+
+/* Navigation bar item spacing */
+.navbar-nav > li{
+    margin-left:140px;
+    margin-right:140px;
+}
+
+/* Navigation bar item dropdown on hover change attributes */
+.dropdown-item:hover {
+    background: transparent;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+} 
+
+/* Navigation bar remove drop down icon */
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* Navigation bar item attributes */
+.navbar-nav > li > a {
+    color: grey !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:15px;
+}
+
+/* Navigation bar item on hover change attributes */
+.navbar-nav > li > a:hover {
+    color: white !important;
+}
+
+/* Carousel font */
+.carousel-inner {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Carousel image resolution */
+.carousel-inner > .carousel-item > img{
+    width: 640px;
+    height: 360px;
+}
+
+/* Carousel round navigations */
+.carousel-indicators--round li {
+    border-radius: 10px;
+    margin: 1px 30px;
+    height: 10px;
+    max-width: 10px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}
+
+/* Card attributes */
+.card-deck > .card {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto; 
+    margin-top: 30px;
+    border-radius: 0%;
+    max-width: 350px;
+    height: 500px;
+}
+
+/* Card image attributes */
+.card-deck > .card > img {
+    width: 350px;
+    height: 180px;
+    border-radius: 0%;
+}
+
+/* Footer attributes */
+.page-footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:15px;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Footers container attributes */
+.page-footer > .container-fluid{
+    margin: auto;
+}
+
+/* Footer row attributes */
+.page-footer > .container-fluid >.row{
+    margin-left: 15px;
+} 
+
+/* Footer list items spacing */
+.page-footer ul li{ 
+    padding: 5px;
+} 
+
+/* Footer list items color */
+.page-footer ul li a{ 
+    color:grey;
+} 
+
+/* Footer list items on hover change attribute */
+.page-footer ul li a:hover{ 
+    text-decoration-line: none;
+    color: white !important;
+} 
+
+/* Footer table items font */
+.page-footer table th{
+    font-weight: normal;
+}
